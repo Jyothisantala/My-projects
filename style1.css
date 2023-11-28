@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    width: 100%;
+    height: 100vh;
+    background: rgb(16,3,28);
+background: radial-gradient(circle, rgba(16,3,28,1) 0%, rgba(57,5,42,1) 100%);
+}
+
+.page .menu{
+    position: relative;
+    padding: 30px,20px ;
+    height: 15vh;
+}
+.page .menu a{
+    position: relative;
+     top:40%;
+    padding: 30px;
+    margin-left:30px;
+    padding-bottom: 5px;
+    left: 23%;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    }
+    
+    
+    .page .menu .world{
+        position: absolute;
+        padding: 30px;
+        left: 10%;
+        top: 5%;
+        font-weight: 600;
+        font-family: sans-serif;
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+    }
+    .page .menu .cir{
+        position: absolute;
+        padding: 2px 2px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        top: 33%;
+        left: 9.5%;
+        width: 2%;
+        height:4vh;
+    }
+    .page .menu .line{
+        position: absolute;
+        padding: 2px 2px;
+        width: 2.5%;
+         left: 9.3%;
+        top: 42%;
+        background: rgb(16,3,28);
+background: radial-gradient(circle, rgba(16,3,28,1) 0%, rgba(57,5,42,1) 100%);
+  transform: rotate(-43deg);
+    }
+    .page .menu .dot1{
+        position:absolute ;
+        padding: 2px 2px;
+        left: 11.3%;
+        top: 32%;
+        border-radius: 50%;
+        background: white;
+    }
+    .page .menu .dot2{
+        position:absolute ;
+        padding: 2px 2px;
+        left: 9.3%;
+        top: 54%;
+        border-radius: 50%;
+        background: white;
+    }
+    
+           
+    .page .menu .btn1{
+        position: absolute;
+        padding: 10px 30px;
+        padding-bottom: 8px;
+        margin-top: 8px;
+        border-radius: 6%;
+        width: 8%;
+        left: 85%;
+        top: 20%;
+        font-size: 17px;
+        font-family: sans-serif;
+        color: #fff;
+        border: 2px solid lightgray;
+        background:#FF00FF;  
+       }
+    
+.page img{
+    position: absolute;
+    right: 0%;
+    top: 43%;
+    width: 35%;
+    height: 45%; 
+}
+.page .head{
+    position: absolute;
+    font-size: 55px;
+    left: 10%;
+    top: 20%;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.page .para{
+    position: absolute;
+    top: 47%;
+    left: 10%;
+    font-size: 27px;
+    color: lightgray;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.page .btn{
+    position: absolute;
+    border-radius: 5px;
+    width: 11%;
+    height: 7%;
+    left: 10%;
+    top:65% ;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid lightgray;
+     background:#FF00FF;     
+}
